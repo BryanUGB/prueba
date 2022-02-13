@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--Long title='Conversor de unidades'/--> 
+    <masa title='Conversor de masa' />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+//import Long from './components/long.vue'
+import masa from  './components/masa.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    //Long,
+    masa
+
   }
 }
 </script>
@@ -26,3 +30,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
